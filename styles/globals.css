@@ -1,0 +1,129 @@
+
+  
+  .modal {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+    overflow: auto;
+    width: 90%; 
+    height: 100%;
+    border: none; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    max-width: 550px;
+    max-height: 510px;
+  }
+  
+  .modal-content {
+    background-color: rgb(247, 246, 246);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 100%;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px; 
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .container {
+    margin-left: 0px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377) ;
+  }
+  
+  .container h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  
+  .modal-content input,
+  .modal-content textarea,
+  .modal-content select {
+    width: calc(100% - 10px); 
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .modal-content textarea{
+    height: 50px;
+  }
+  .btn {
+    background-color: #f8d617;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.582) ;
+    
+  }
+  
+  .btn:hover {
+    background-color: #e4c725;
+  }
+  .btn:active {
+   background-color: rgb(255, 121, 121);
+    content: "Request is sent";
+  }
+  
+
+.btn2{
+    background-color: #cececc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.616) ;
+}
+
+.btn2:hover{
+    background-color: #b8b8b3;
+}
+
+.btns{
+    margin-left: 110px;
+    margin-bottom: -30px;
+}
+  
+.msg{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}

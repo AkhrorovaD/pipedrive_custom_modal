@@ -1,0 +1,10 @@
+tasks:
+  - init: npm install
+    command: bash init.sh
+
+ports:
+  - name: FloatingWindowURL
+    port: 3000
+    onOpen: notify
+    visibility: public
+
